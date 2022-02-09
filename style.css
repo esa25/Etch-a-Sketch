@@ -1,0 +1,43 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 900px;
+    height: 1050px;
+    background-color: green;
+}
+
+.container .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.container .buttons button {
+    width: 100px;
+    height: 50px;
+    background:rgb(105, 102, 102);
+    border-radius: 25%;
+    font-size: 1rem;
+    color: black;
+}
+
+.container .screen {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    border: 5px solid whitesmoke;
+    margin: 20px auto;
+}
